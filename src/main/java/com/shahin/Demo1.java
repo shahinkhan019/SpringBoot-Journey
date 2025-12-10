@@ -13,5 +13,7 @@ public class Demo {
 //        OwnerService ownerService = (OwnerService) context.getBean("ownerService2"); instead of type casting i can do this like below also
         OwnerService ownerService = context.getBean("ownerServiceReal", OwnerService.class);// now it will create the bean of type OwnerServiceImp1\
         System.out.println(ownerService.findOwner());
+        ((AnnotationConfigApplicationContext) context).close(); // to close the context and release the resources
+
     }
 }
