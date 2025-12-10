@@ -10,6 +10,6 @@ public class OwnerRepositoryImp1 implements OwnerRepository {
 
     @Override
     public String findOwner(int ownerId) {
-        return "";
+        return String.format("Found owner from repository with ownerId:" + ownerId);
     }
 }

@@ -1,12 +1,13 @@
 package com.shahin.service.mock.imp1;
 
+import com.shahin.repository.OwnerRepository;
 import com.shahin.service.OwnerService;
 
 public class OwnerServiceImp1 implements OwnerService {
 
     private int ownerId;
 
-    public OwnerServiceImp1(int ownerId) {
+    public OwnerServiceImp1(OwnerRepository ownerRepository, int ownerId) {
         this.ownerId = ownerId;
         System.out.println("OwnerServiceImp1 mock object created");
     }
