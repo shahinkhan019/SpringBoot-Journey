@@ -7,6 +7,12 @@ public class OwnerServiceImp1 implements OwnerService {
     private OwnerRepository ownerRepository;
     private int ownerId;
 
+    public OwnerServiceImp1() {
+        System.out.println("OwnerServiceImp1 default bean created");
+    }
+
+
+
     public OwnerServiceImp1(OwnerRepository ownerRepository, int ownerId) {
         this.ownerRepository = ownerRepository;
         this.ownerId = ownerId;
