@@ -13,6 +13,14 @@ public class OwnerServiceImp1 implements OwnerService {
         System.out.println("OwnerServiceImp1 object created");
     }
 
+    public void setOwnerRepository(OwnerRepository ownerRepository) {
+        this.ownerRepository = ownerRepository;
+    }
+
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
+    }
+
     @Override
     public String findOwner() {
         return ownerRepository.findOwner(ownerId);
