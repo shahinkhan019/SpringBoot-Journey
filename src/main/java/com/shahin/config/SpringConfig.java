@@ -22,6 +22,9 @@ public class SpringConfig { // i am using this class to configure my beans but w
         return ownerService;
   }
 
+
+
+
   @Bean
   public OwnerRepository ownerRepository() {
         return new OwnerRepositoryImp1();
