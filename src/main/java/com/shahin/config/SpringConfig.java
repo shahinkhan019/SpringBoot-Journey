@@ -15,8 +15,11 @@ public class SpringConfig { // i am using this class to configure my beans but w
   }
 
   @Bean("ownerServiceReal")
-  public OwnerService ownerService2() {
-        return new OwnerServiceImp1(ownerRepository(), 20);
+  public OwnerService ownerService() {
+      OwnerServiceImp1 ownerService = new OwnerServiceImp1();
+      ownerService.setOwnerRepository(ownerRepository());
+      ownerService.setOwnerId(10);
+        return ownerService;
   }
 
   @Bean
