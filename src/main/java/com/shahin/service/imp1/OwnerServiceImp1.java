@@ -19,6 +19,7 @@ public class OwnerServiceImp1 implements OwnerService {
         System.out.println("OwnerServiceImp1 object created");
     }
 
+    @Autowired
     public void setOwnerRepository(OwnerRepository ownerRepository) {
         this.ownerRepository = ownerRepository;
     }
