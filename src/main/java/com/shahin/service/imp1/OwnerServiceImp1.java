@@ -23,6 +23,7 @@ public class OwnerServiceImp1 implements OwnerService {
         this.ownerRepository = ownerRepository;
     }
 
+    @Value("10")
     public void setOwnerId(int ownerId) {
         this.ownerId = ownerId;
     }
