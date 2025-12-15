@@ -1,6 +1,9 @@
 # ===== IntelliJ IDEA =====
 .idea/
+<<<<<<< HEAD
 **/.idea/
+=======
+>>>>>>> f73d88596164b057bfa059d5cdfd9849bda6d3aa
 *.iml
 *.iws
 *.ipr
