@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>4.0.0</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.shahin</groupId>
+    <artifactId>SpringBoot-Journey</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <artifactId>Demo1</artifactId>
-    <groupId>org.example</groupId>
-    <name>Demo1</name>
+    <packaging>pom</packaging>
+    <name>SpringBoot-Journey</name>
+
+    <modules>
+        <module>Demo0</module>
+        <module>Demo1</module>
+        <module>Demo3</module>
+        <module>Demo4</module>
+        <module>Demo5</module>
+        <module>Demo6</module>
+        <module>Demo7</module>
+    </modules>
 
     <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
+        <java.version>21</java.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>7.0.1</spring.version>
     </properties>
-
-<dependencies>
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>${spring.version}</version>
-    </dependency>
-    </dependencies>
 
 </project>

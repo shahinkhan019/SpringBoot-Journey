@@ -1,10 +1,7 @@
 package com.shahin;
 
 import com.shahin.config.SpringConfig;
-import com.shahin.repository.OwnerRepository;
-import com.shahin.repository.imp1.OwnerRepositoryImp1;
 import com.shahin.service.OwnerService;
-import com.shahin.service.imp1.OwnerServiceImp1;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
