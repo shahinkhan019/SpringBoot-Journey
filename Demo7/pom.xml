@@ -23,6 +23,18 @@
         <artifactId>spring-context</artifactId>
         <version>${spring.version}</version>
     </dependency>
-    </dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-autoconfigure</artifactId>
+        <version>4.0.0</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.shahin</groupId>
+        <artifactId>Demo6</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <scope>compile</scope>
+    </dependency>
+</dependencies>
 
 </project>

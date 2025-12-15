@@ -1,24 +1,31 @@
 package com.shahin;
 
+import com.shahin.Demo6.Demo6Application;
 import com.shahin.repository.OwnerRepository;
 import com.shahin.service.OwnerService;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+// @Configuration + @ComponentScan + @EnableAutoConfiguration
+@SpringBootApplication
+public class Demo implements CommandLineRunner {
 
-@ComponentScan
-@Configuration
-public class Demo {
+    @Autowired
+    private OwnerService ownerService;
+
     public static void main(String[] args) {
+        System.out.println(1);
+        SpringApplication.run(Demo6Application.class, args);
+        System.out.println(2);
 
-        ApplicationContext context  = new AnnotationConfigApplicationContext(Demo.class);
+    }
 
-        OwnerService ownerService = context.getBean("specialService", OwnerService.class);
-        OwnerRepository ownerRepository = context.getBean("commonRepository", OwnerRepository.class);
+    @Override
+    public void run(String... args) throws Exception {
+        System.out.println(3);
         System.out.println(ownerService.findOwner());
-        ((AnnotationConfigApplicationContext) context).close();
-
+        System.out.println(4);
     }
 }

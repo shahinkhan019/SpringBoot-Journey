@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
-@Service("commonService")
+@Service("ownerServiceImp1")
 public class OwnerServiceImp1 implements OwnerService {
 
     @Autowired
