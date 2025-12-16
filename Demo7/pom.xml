@@ -8,7 +8,6 @@
     <artifactId>Demo7</artifactId>
     <groupId>org.example</groupId>
     <name>Demo7</name>
-
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>

@@ -17,13 +17,13 @@ public class Demo implements CommandLineRunner {
 
     public static void main(String[] args) {
         System.out.println(1);
-        SpringApplication.run(Demo6Application.class, args);
-        System.out.println(2);
+        SpringApplication.run(Demo6Application.class, args); // here run method will create ApplicationContext and do the
+        System.out.println(2);                           // dependency injection also invoke CommandLineRunner run method
 
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) throws Exception {  // this method will be executed after application context is created
         System.out.println(3);
         System.out.println(ownerService.findOwner());
         System.out.println(4);
