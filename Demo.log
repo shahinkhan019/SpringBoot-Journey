@@ -1,0 +1,35 @@
+2025-12-17T15:56:12.785+05:30  INFO 30028 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 30028 (C:\Tools\SpringBoot-Journey\Demo9\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-17T15:56:12.789+05:30  INFO 30028 --- [Demo] [main] com.shahin.Demo                          : No active profile set, falling back to 1 default profile: "default"
+2025-12-17T15:56:13.318+05:30  INFO 30028 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 1.051 seconds (process running for 1.401)
+2025-12-17T15:56:13.322+05:30  INFO 30028 --- [Demo] [main] com.shahin.Demo                          : Found owner with ownerId: 10 
+2025-12-17T15:56:40.866+05:30  INFO 18784 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 18784 (C:\Tools\SpringBoot-Journey\Demo9\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-17T15:56:40.873+05:30  INFO 18784 --- [Demo] [main] com.shahin.Demo                          : No active profile set, falling back to 1 default profile: "default"
+2025-12-17T15:56:41.408+05:30  INFO 18784 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 1.044 seconds (process running for 1.385)
+2025-12-17T15:56:41.413+05:30  INFO 18784 --- [Demo] [main] com.shahin.Demo                          : Found owner with ownerId: 10 
+2025-12-17T15:56:47.322+05:30 ERROR 18784 --- [Demo] [main] com.shahin.Demo                          : Can't find owner with ownerId: 21
+
+com.shahin.exception.OwnerNotFoundException: Can't find owner with ownerId: 21
+	at com.shahin.repository.imp1.OwnerRepositoryImp1.findOwner(OwnerRepositoryImp1.java:21) ~[classes/:na]
+	at com.shahin.service.imp1.OwnerServiceImp1.findOwner(OwnerServiceImp1.java:27) ~[classes/:na]
+	at com.shahin.Demo.run(Demo.java:34) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:801) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:809) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:785) ~[spring-boot-4.0.0.jar:4.0.0]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:785) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-4.0.0.jar:4.0.0]
+	at com.shahin.Demo.main(Demo.java:22) ~[classes/:na]
+
