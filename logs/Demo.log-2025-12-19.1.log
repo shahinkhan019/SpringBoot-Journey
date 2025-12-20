@@ -1,0 +1,6 @@
+2025-12-19T10:04:38.575+05:30  INFO 33392 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 33392 (C:\Tools\SpringBoot-Journey\Demo10\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T10:04:38.588+05:30  INFO 33392 --- [Demo] [main] com.shahin.Demo                          : No active profile set, falling back to 1 default profile: "default"
+2025-12-19T10:04:39.428+05:30  WARN 33392 --- [Demo] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'ownerService': Error creating bean with name 'ownerServiceImp1': Unsatisfied dependency expressed through field 'ownerId': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "$(owner.id)"
+2025-12-19T10:04:39.441+05:30  INFO 33392 --- [Demo] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.

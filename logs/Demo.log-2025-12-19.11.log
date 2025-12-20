@@ -1,0 +1,6 @@
+2025-12-19T10:15:13.163+05:30  INFO 22944 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 22944 (C:\Tools\SpringBoot-Journey\Demo10\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T10:15:13.180+05:30  INFO 22944 --- [Demo] [main] com.shahin.Demo                          : No active profile set, falling back to 1 default profile: "default"
+2025-12-19T10:15:14.357+05:30  INFO 22944 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 2.297 seconds (process running for 3.073)
+2025-12-19T10:15:14.368+05:30  INFO 22944 --- [Demo] [main] com.shahin.Demo                          : Found owner with ownerId: 100 
+2025-12-19T12:30:35.767+05:30  INFO 18940 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 18940 (C:\Tools\SpringBoot-Journey\Demo10\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T12:30:35.776+05:30  INFO 18940 --- [Demo] [main] com.shahin.Demo                          : No active profile set, falling back to 1 default profile: "default"

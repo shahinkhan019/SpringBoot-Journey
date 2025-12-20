@@ -1,0 +1,53 @@
+2025-12-19T17:34:55.557+05:30  INFO 12244 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 12244 (C:\Tools\SpringBoot-Journey\Demo11\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T17:34:55.561+05:30  INFO 12244 --- [Demo] [main] com.shahin.Demo                          : The following 1 profile is active: "prod"
+2025-12-19T17:34:56.078+05:30  INFO 12244 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 1.059 seconds (process running for 1.414)
+2025-12-19T17:34:56.083+05:30  INFO 12244 --- [Demo] [main] com.shahin.Demo                          : "Found owner with ownerId 100"
+2025-12-19T18:47:50.466+05:30  INFO 21716 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 21716 (C:\Tools\SpringBoot-Journey\Demo11\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T18:47:50.473+05:30  INFO 21716 --- [Demo] [main] com.shahin.Demo                          : The following 1 profile is active: "prod"
+2025-12-19T18:47:51.041+05:30  INFO 21716 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 1.063 seconds (process running for 1.433)
+2025-12-19T18:47:51.045+05:30  INFO 21716 --- [Demo] [main] com.shahin.Demo                          : "Found owner with ownerId 100"
+2025-12-19T18:48:10.739+05:30  INFO 7144 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 7144 (C:\Tools\SpringBoot-Journey\Demo11\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T18:48:10.742+05:30  INFO 7144 --- [Demo] [main] com.shahin.Demo                          : The following 1 profile is active: "prod"
+2025-12-19T18:48:11.285+05:30  INFO 7144 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 1.004 seconds (process running for 1.359)
+2025-12-19T18:48:11.290+05:30  INFO 7144 --- [Demo] [main] com.shahin.Demo                          : "Found owner with ownerId 100"
+2025-12-19T22:37:05.686+05:30  INFO 16708 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 16708 (C:\Tools\SpringBoot-Journey\Demo11\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T22:37:05.691+05:30  INFO 16708 --- [Demo] [main] com.shahin.Demo                          : The following 1 profile is active: "prod"
+2025-12-19T22:37:06.833+05:30  INFO 16708 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 2.238 seconds (process running for 3.158)
+2025-12-19T22:37:06.846+05:30  INFO 16708 --- [Demo] [main] com.shahin.Demo                          : "Found owner with ownerId 100"
+2025-12-19T22:37:38.217+05:30  INFO 16708 --- [Demo] [main] com.shahin.Demo                          : "Found owner with ownerId 4"
+2025-12-19T22:37:51.757+05:30  INFO 13804 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 13804 (C:\Tools\SpringBoot-Journey\Demo11\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T22:37:51.761+05:30  INFO 13804 --- [Demo] [main] com.shahin.Demo                          : The following 1 profile is active: "prod"
+2025-12-19T22:37:52.723+05:30  INFO 13804 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 1.833 seconds (process running for 2.482)
+2025-12-19T22:37:52.730+05:30  INFO 13804 --- [Demo] [main] com.shahin.Demo                          : "Found owner with ownerId 100"
+2025-12-19T22:37:55.258+05:30  INFO 13804 --- [Demo] [main] com.shahin.Demo                          : "Found owner with ownerId 3"
+2025-12-19T22:39:15.363+05:30  INFO 14768 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 14768 (C:\Tools\SpringBoot-Journey\Demo11\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-19T22:39:15.369+05:30  INFO 14768 --- [Demo] [main] com.shahin.Demo                          : The following 1 profile is active: "prod"
+2025-12-19T22:39:16.465+05:30  INFO 14768 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 2.014 seconds (process running for 2.599)
+2025-12-19T22:39:16.473+05:30  INFO 14768 --- [Demo] [main] com.shahin.Demo                          : "Found owner with ownerId 100"
+2025-12-19T22:39:29.785+05:30 ERROR 14768 --- [Demo] [main] com.shahin.Demo                          : "Can't find owner with ownerId: 3"
+
+com.shahin.exception.OwnerNotFoundException: "Can't find owner with ownerId: 3"
+	at com.shahin.repository.mock.impl.OwnerRepositoryImp2.findOwner(OwnerRepositoryImp2.java:27) ~[classes/:na]
+	at com.shahin.service.imp1.OwnerServiceImp1.findOwner(OwnerServiceImp1.java:27) ~[classes/:na]
+	at com.shahin.Demo.run(Demo.java:35) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:801) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:809) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:785) ~[spring-boot-4.0.0.jar:4.0.0]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:785) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-4.0.0.jar:4.0.0]
+	at com.shahin.Demo.main(Demo.java:23) ~[classes/:na]
+

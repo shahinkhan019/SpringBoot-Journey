@@ -27,7 +27,8 @@
         <module>Demo7</module>
         <module>Demo8</module>
         <module>Demo9</module>
-<!--        <module>Demo10</module>-->
+        <module>Demo10</module>
+        <module>Demo11</module>
     </modules>
 
     <properties>

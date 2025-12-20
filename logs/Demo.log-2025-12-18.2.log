@@ -1,0 +1,4 @@
+2025-12-18T19:09:37.734+05:30  INFO 19828 --- [Demo] [main] com.shahin.Demo                          : Starting Demo using Java 24.0.2 with PID 19828 (C:\Tools\SpringBoot-Journey\Demo9\target\classes started by akhan in C:\Tools\SpringBoot-Journey)
+2025-12-18T19:09:37.745+05:30  INFO 19828 --- [Demo] [main] com.shahin.Demo                          : No active profile set, falling back to 1 default profile: "default"
+2025-12-18T19:09:38.671+05:30  INFO 19828 --- [Demo] [main] com.shahin.Demo                          : Started Demo in 1.866 seconds (process running for 2.443)
+2025-12-18T19:09:38.681+05:30  INFO 19828 --- [Demo] [main] com.shahin.Demo                          : Found owner with ownerId: 10 
